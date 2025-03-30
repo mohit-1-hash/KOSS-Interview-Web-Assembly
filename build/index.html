@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASM vs JavaScript Benchmark</title>
+    <script type="module">
+        import { benchmarkWASM } from "./js/wasm.js";
+        import { benchmarkJS } from "./js/main.js";
+
+        window.benchmarkJS = benchmarkJS;
+        window.benchmarkWASM = benchmarkWASM;
+    </script>
+</head>
+<body>
+    <h1>Compare JavaScript and WebAssembly</h1>
+
+    <button onclick="benchmarkJS()">Run JavaScript</button>
+    <button onclick="benchmarkWASM()">Run WebAssembly</button>
+
+    <h2>Output:</h2>
+    <p id="output">Click a button to start</p>
+
+</body>
+</html>
