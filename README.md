@@ -21,11 +21,7 @@ It was developed as part of the **KOSS (Kharagpur Open Source Society) interview
 - **JavaScript (ES6)** for integration logic
 - **HTML5** for browser execution environment
 
----
 
-## 📂 Project Structure
-
----
 
 ## 🚀 How It Works
 1. Factorials of numbers 1–20 are computed repeatedly for a large number of iterations.  
